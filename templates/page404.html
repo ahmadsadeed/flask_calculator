@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block title %}Page Not Found{% endblock %}
+
+{% block main %}
+
+
+<div class="container text-center">
+  <h1 class="jumbotron-heading">Page Not Found</h1>
+  <p class="lead">The page doesn't exit. Use the button below to go the main page.</p>
+  <p>
+    <a href="{{ url_for('calculate') }}"><button class="btn btn-primary my-2">Calculate</button></a>
+  </p>
+</div>
+
+
+{% endblock %}
